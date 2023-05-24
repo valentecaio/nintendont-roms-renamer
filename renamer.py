@@ -89,12 +89,12 @@ if __name__ == "__main__":
     print("It will **NOT** change any file or directory if the TEST parameter is set to True.")
     print("You can undo the renaming by running the script with the UNDO parameter set to True.\n")
 
-    if not TEST:
-        print("WARNING: \nRUNNING THE SCRIPT WILL MODIFY FILES AND FOLDERS IN THE GAMESDIR DIRECTORY.")
-        print("MAKE SURE YOU HAVE A BACKUP OF THE FILES BEFORE PROCEEDING.")
-    else:
+    if TEST:
         print("You are running the script in test mode. No files will be modified.")
         print("If you want to modify files, edit the TEST parameter in the script.")
+    else:
+        print("WARNING: \nRUNNING THE SCRIPT WILL MODIFY FILES AND FOLDERS IN THE GAMESDIR DIRECTORY.")
+        print("MAKE SURE YOU HAVE A BACKUP OF THE FILES BEFORE PROCEEDING.")
     input("\nPress any key to proceed or close the window to cancel.")
 
     if UNDO:
