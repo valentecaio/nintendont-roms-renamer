@@ -23,19 +23,15 @@ Follow the instructions below to clone the repository and execute the script wit
 
 Please note that modifying files and folders in the `games/` directory is irreversible. It is recommended to have a backup of your files before running the script to ensure the safety of your game library.
 
-1. Clone the repository:
+1. Clone the repository and navigate to the cloned directory:
    ```
    git clone https://github.com/your-username/nintendont-rom-renamer.git
-   ```
-
-2. Navigate to the cloned directory:
-   ```
    cd nintendont-rom-renamer
    ```
 
-3. Create a `games/` directory containing all the games you want to rename.
+2. Create a `games/` directory containing all the games you want to rename.
 
-4. Run the script:  
+3. Run the script:  
    Double-click the file `renamer.py` or run the line below:
    ```
    ./renamer.py
@@ -43,7 +39,7 @@ Please note that modifying files and folders in the `games/` directory is irreve
 
    By default, the script runs in "test mode" (`TEST = True`), which means it will simulate the renaming process without modifying any files. This allows you to preview the changes before applying them. If you are satisfied with the changes, you can edit the `TEST` parameter in the `renamer.py` script to `False` to perform the actual renaming.
 
-5. Follow the on-screen prompts and instructions provided by the script.
+4. Follow the on-screen prompts and instructions provided by the script.
 
 **Note:** It is recommended to have a backup of your files before running the script, especially if you are running it without the test mode enabled (`TEST = False`). Modifying files and folders in the `games/` directory is irreversible, so ensuring the safety of your game library is essential.
 
@@ -56,6 +52,6 @@ To create the test files, execute the following command before running the `rena
 ./create_test_files.sh
 ```
 
-The test files will be created in the `games/` directory, mimicking the structure of a typical Nintendont ROMs collection. You can then run the `renamer.py` script as described in step 4 of the "Usage" section to see how the renaming process would affect the files.
+The test files will be created in the `games/` directory, mimicking the structure of a typical Nintendont ROMs collection. You can then run the `renamer.py` script as described in step 3 of the "Usage" section to see how the renaming process would affect the files.
 
 Please remember that the test files are for simulation purposes only and will not reflect the actual contents of your game library.
