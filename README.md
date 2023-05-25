@@ -52,6 +52,6 @@ To create the test files, execute the following command before running the `rena
 ./create_test_files.sh
 ```
 
-The test files will be created in the `games/` directory, mimicking the structure of a typical Nintendont ROMs collection. You can then run the `renamer.py` script as described in step 3 of the "Usage" section to see how the renaming process would affect the files.
+The test files will be created in the `games/` directory, mimicking the structure of a typical Gamecube ROMs collection. You can then run the `renamer.py` script as described in step 3 of the "Usage" section to see how the renaming process would affect the files.
 
 Please remember that the test files are for simulation purposes only and will not reflect the actual contents of your game library.
