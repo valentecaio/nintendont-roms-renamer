@@ -8,7 +8,7 @@ Nintendont expects the games to be organized in a specific folder structure. Eac
 | Incorrect Path                       | Correct Path                     |
 | ------------------------------------ | -------------------------------- |
 | /games/Zelda Wind Waker/Zelda.iso     | /games/Zelda Wind Waker/game.iso |
-| /games/Tales of Symphonia/ToS Disc 2.iso   | /games/Tales of Symphonia/disc2.iso |  
+| /games/Tales of Symphonia Disc 2.iso   | /games/Tales of Symphonia/disc2.iso |  
 
 
 The purpose of this script is to automate the organization and renaming process, making it easier to prepare your game library for use with Nintendont.
